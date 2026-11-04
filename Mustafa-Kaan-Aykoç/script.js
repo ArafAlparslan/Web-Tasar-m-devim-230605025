@@ -1,9 +1,8 @@
 'use strict';
 
-// Gerçek e-posta adresinizi eklerseniz iletişim bölümünde bağlantı görünür.
 // Boş bırakıldığında örnek veya uydurma bir adrese yönlendirme yapılmaz.
 const siteSettings = {
-  email: '',
+  email: 'aykocmustafakaan@outlook.com',
   name: 'Mustafa Kaan Aykoç'
 };
 
