@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mustafa Kaan Aykoç'un kişisel web sayfası. Gazetecilik, tarih, makroekonomi, finans ve hayatın içinden ilgi alanları.">
+  <meta name="theme-color" content="#f6f7f3">
+  <title>Mustafa Kaan Aykoç — Kişisel Web Sayfam</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+
+  <!-- Gezinme: logo ana sayfaya, altı bağlantı ilgili bölüme götürür. -->
+  <header class="site-header" id="ust">
+    <div class="container header-inner">
+      <a class="brand" href="#anasayfa" aria-label="Mustafa Kaan Aykoç, ana sayfa">
+        <span class="brand-mark">mk<span>a.</span></span>
+        <span class="brand-caption">MUSTAFA KAAN<br>AYKOÇ</span>
+      </a>
+      <nav class="main-nav" id="ana-menu" aria-label="Ana gezinme">
+        <a href="#hakkimda">Hakkımda</a>
+        <a href="#egitim">Eğitim</a>
+        <a href="#beceriler">Beceriler</a>
+        <a href="#ilgi-alanlarim">İlgi Alanlarım</a>
+        <a href="#galeri">Galeri</a>
+        <a href="#iletisim">İletişim <span aria-hidden="true">↗</span></a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button theme-toggle" type="button" aria-label="Koyu temaya geç" aria-pressed="false" title="Temayı değiştir">
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M20.5 13.2A8.7 8.7 0 0 1 10.8 3.5 8.7 8.7 0 1 0 20.5 13.2Z"/></svg>
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg>
+        </button>
+        <button class="icon-button menu-toggle" type="button" aria-label="Menüyü aç" aria-controls="ana-menu" aria-expanded="false"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <section class="hero container" id="anasayfa" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> KİŞİSEL WEB SAYFAMA HOŞ GELDİNİZ</div>
+        <p class="hero-hello">Merhaba, ben</p>
+        <h1 id="hero-title">Mustafa Kaan<br><span>Aykoç<span class="accent-dot">.</span></span></h1>
+        <p class="hero-description">Geçmişi merak eden,<br>bugünü anlamaya çalışan bir <strong>gazetecilik öğrencisi.</strong></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#hakkimda">Beni tanı <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#ilgi-alanlarim">İlgi alanlarımı keşfet <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta"><span>Uşak, Türkiye</span><span>Merak · Araştırma · Anlatı</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-backdrop" aria-hidden="true"></div>
+        <figure class="hero-portrait">
+          <img src="assets/portre-renkli.jpg" alt="Mustafa Kaan Aykoç'un mavi kazaklı portresi" width="1164" height="1536" fetchpriority="high">
+          <figcaption><span>MUSTAFA KAAN AYKOÇ</span><span>Hayatın içinden.</span></figcaption>
+        </figure>
+        <div class="portrait-note"><span class="note-symbol" aria-hidden="true">✳</span><span>Her hikâye<br><strong>merakla başlar.</strong></span></div>
+        <span class="portrait-side-label" aria-hidden="true">KENDİ PENCEREMDEN / 01</span>
+      </div>
+      <a class="scroll-hint" href="#hakkimda"><span aria-hidden="true">↓</span> HİKÂYEME DOĞRU</a>
+    </section>
+
+    <div class="topic-strip" aria-label="Başlıca ilgi alanlarım"><div class="container"><span>GAZETECİLİK</span><b aria-hidden="true">✳</b><span>HARP TARİHİ</span><b aria-hidden="true">✳</b><span>MAKROEKONOMİ</span><b aria-hidden="true">✳</b><span>FİNANS</span><b aria-hidden="true">✳</b><span>TEKNOLOJİ</span></div></div>
+
+    <section class="section container about-section" id="hakkimda" aria-labelledby="about-title">
+      <div class="section-label"><span>01 / HAKKIMDA</span><span>Biraz beni tanıyın</span></div>
+      <div class="about-grid">
+        <div class="about-title-wrap"><h2 id="about-title">Bir başlığın<br><em>ötesine</em> bakmak.</h2><div class="small-rule"></div><p class="section-aside">Olayların arkasındaki nedenler,<br>insanların anlatacak hikâyeleri var.</p></div>
+        <div class="about-copy">
+          <p class="lead">Ben Mustafa Kaan Aykoç. Uşak Üniversitesi İletişim Fakültesi Gazetecilik Bölümü öğrencisiyim.</p>
+          <p>Haberlerin arkasındaki hikâyeleri keşfetmek ve farklı insanların görüşlerini dinlemek ilgimi çekiyor. Öğrendiklerimi araştırma, haber yazımı ve röportaj çalışmalarıyla geliştirmeye çalışıyorum.</p>
+          <p>Merakım gazetecilikle sınırlı değil. Harp tarihinden makroekonomiye, finanstan teknolojiye uzanan ilgi alanlarım, dünyaya farklı pencerelerden bakmama yardımcı oluyor.</p>
+          <div class="about-signature">Mustafa Kaan Aykoç <span aria-hidden="true">↗</span></div>
+        </div>
+      </div>
+      <div class="principles"><div><span>01</span><h3>Merak et.</h3><p>Görünenin arkasındaki soruyu bul.</p></div><div><span>02</span><h3>Araştır.</h3><p>Farklı kaynakları ve bakış açılarını incele.</p></div><div><span>03</span><h3>Anlat.</h3><p>Öğrendiklerini açık ve anlaşılır biçimde paylaş.</p></div></div>
+    </section>
+
+    <section class="education-section" id="egitim" aria-labelledby="education-title">
+      <div class="container education-inner">
+        <div><div class="eyebrow light-eyebrow">02 / EĞİTİMİM</div><h2 id="education-title">Öğrenmek,<br>yolculuğun kendisi.</h2><p>Teoriyi, gözlemi ve anlatıyı bir araya getiren bir eğitim.</p></div>
+        <article class="university-card"><div class="university-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m5 17 19-9 19 9-19 9L5 17Z"/><path d="M12 21v11c7 6 17 6 24 0V21m7-4v15"/></svg></div><span class="university-label">ÜNİVERSİTE EĞİTİMİ</span><h3>Uşak Üniversitesi</h3><p>İletişim Fakültesi</p><div class="degree-row"><span>Gazetecilik Bölümü</span><span class="student-tag">Öğrenci</span></div><div class="course-tags"><span>Haber Toplama ve Yazma</span><span>Medya ve Toplum</span><span>İletişim Tarihi</span><span>Araştırma Yöntemleri</span></div></article>
+      </div>
+    </section>
+
+    <section class="section container" id="beceriler" aria-labelledby="skills-title">
+      <div class="section-label"><span>03 / BECERİLERİM</span><span>Öğrendiklerim, geliştirdiklerim</span></div>
+      <div class="section-heading"><h2 id="skills-title">Fikirden<br><em>anlatıya.</em></h2><p>Gazetecilik eğitimim boyunca üzerinde çalıştığım ve uygulamayla geliştirdiğim beceriler.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><svg class="line-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 6H6v21h20V13M12 20l2-6L25 3l4 4-11 11-6 2Z"/></svg><h3>Haber yazımı</h3><p>Topladığım bilgileri düzenli, anlaşılır ve haberin önem sırasına uygun metinlere dönüştürmek.</p><span class="skill-tag">Açık ve anlaşılır anlatım</span></article>
+        <article class="skill-card"><span class="skill-number">02</span><svg class="line-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="12" y="3" width="8" height="17" rx="4"/><path d="M8 15v2a8 8 0 0 0 16 0v-2M16 25v5m-5 0h10"/></svg><h3>Röportaj hazırlama</h3><p>Konuya uygun sorular oluşturmak, görüşleri dinlemek ve görüşmeleri yazıya aktarmak.</p><span class="skill-tag">Soru sormak ve dinlemek</span></article>
+        <article class="skill-card"><span class="skill-number">03</span><svg class="line-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="13" cy="13" r="9"/><path d="m20 20 9 9M8 13h10m-10-4h6m-6 8h7"/></svg><h3>Araştırma</h3><p>Farklı kaynaklardan bilgi toplamak, kaynakları karşılaştırmak ve konunun arka planını incelemek.</p><span class="skill-tag">Kaynak ve bağlam</span></article>
+        <article class="skill-card"><span class="skill-number">04</span><svg class="line-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 5h22v18H15l-7 5v-5H5V5Z"/><path d="M10 11h12m-12 6h8"/></svg><h3>Yazılı anlatım</h3><p>Düşünceleri doğru kelimelerle ifade etmek ve okuyucuyla anlaşılır bir iletişim kurmak.</p><span class="skill-tag">Düşünceden metne</span></article>
+      </div>
+    </section>
+
+    <section class="interests-section" id="ilgi-alanlarim" aria-labelledby="interests-title">
+      <div class="container section">
+        <div class="section-label"><span>04 / HOBİLERİM & İLGİ ALANLARIM</span><span>Merakımın izinde</span></div>
+        <div class="section-heading"><h2 id="interests-title">Dünyaya açılan<br><em>farklı pencereler.</em></h2><p>Geçmişin izleri, bugünün dinamikleri ve yarının ihtimalleri. Takip etmekten keyif aldığım konular.</p></div>
+        <div class="filter-bar" role="group" aria-label="İlgi alanlarını filtrele"><button class="filter-button is-active" data-filter="all" aria-pressed="true" type="button">Tümü <span>05</span></button><button class="filter-button" data-filter="history" aria-pressed="false" type="button">Tarih</button><button class="filter-button" data-filter="economy" aria-pressed="false" type="button">Ekonomi</button><button class="filter-button" data-filter="life" aria-pressed="false" type="button">Spor, teknoloji ve medya</button></div>
+        <p class="sr-only" id="filter-status" role="status" aria-live="polite"></p>
+        <div class="interests-grid">
+          <article class="interest-card interest-featured" data-category="history"><div class="interest-top"><span class="topic-label">GEÇMİŞİN İZLERİ</span><span class="interest-index">01 / 05</span></div><div class="history-art" aria-hidden="true"><svg viewBox="0 0 300 110" fill="none" stroke="currentColor"><path d="M12 89h275M45 89V42h20v47m0-24h45v24m0-51h25v51m0-20h40v20m0-49h22v49m0-29h40v29M39 42h32m34-4h35m29 2h34M52 42V20m69 18V11m66 29V19"/><path d="m52 20 19 6-19 5m69-20 24 7-24 6m66-5 22 7-22 6M16 89l16-17 9 8M240 89l19-28 21 28"/><circle cx="260" cy="20" r="11"/></svg></div><h3>Tarih & Harp Tarihi</h3><p>Tarihî olayları, savaşları ve askerî stratejileri araştırmayı; geçmişteki gelişmelerin günümüze etkilerini incelemeyi seviyorum.</p><details><summary>Merak ettiğim yönü <span aria-hidden="true">+</span></summary><p>Savaşların yalnızca cephedeki gelişmelerini değil, siyasi ve toplumsal sonuçlarını da anlamaya çalışmak.</p></details></article>
+          <article class="interest-card interest-economy" data-category="economy"><div class="interest-top"><span class="topic-label">BUGÜNÜN DİNAMİKLERİ</span><span class="interest-index">02 / 05</span></div><div class="economy-art" aria-hidden="true"><svg viewBox="0 0 300 110" fill="none" stroke="currentColor"><path class="chart-grid" d="M20 15v80h265M20 35h265M20 55h265M20 75h265"/><path class="chart-line" d="m25 78 32-10 22 9 34-34 25 12 37-33 25 14 36-18 24 7 23-19"/><path d="M63 93V74m35 19V65m35 28V61m35 32V42m35 51V49m35 44V31m35 62V25"/></svg></div><h3>Makroekonomi & Finans</h3><p>Ekonomik gelişmeleri ve finans dünyasını takip ediyorum. Enflasyon, faiz ve küresel piyasalar arasındaki ilişkiler ilgimi çekiyor.</p><details><summary>Merak ettiğim yönü <span aria-hidden="true">+</span></summary><p>Ekonomik kararların günlük yaşama yansımasını ve piyasaların gelişmelere nasıl tepki verdiğini incelemek.</p></details></article>
+          <article class="interest-card" data-category="life"><div class="interest-top"><span class="topic-label">HAREKET & REKABET</span><span class="interest-index">03 / 05</span></div><div class="interest-small-icon" aria-hidden="true">↗</div><h3>Spor</h3><p>Spor karşılaşmalarını ve sporcuların kariyerlerini takip etmekten keyif alıyorum.</p><details><summary>Merak ettiğim yönü <span aria-hidden="true">+</span></summary><p>Rekabetin yanında sporcuların disiplinini, mücadelelerini ve başarıya uzanan hikâyelerini takip etmek.</p></details></article>
+          <article class="interest-card" data-category="life"><div class="interest-top"><span class="topic-label">YENİLİĞİN PEŞİNDE</span><span class="interest-index">04 / 05</span></div><div class="interest-small-icon" aria-hidden="true">⌘</div><h3>Teknoloji</h3><p>Yeni cihazları, dijital araçları ve teknolojik gelişmeleri incelemeyi seviyorum.</p><details><summary>Merak ettiğim yönü <span aria-hidden="true">+</span></summary><p>Yeni teknolojilerin nasıl çalıştığını ve iletişim alışkanlıklarımızı nasıl değiştirdiğini araştırmak.</p></details></article>
+          <article class="interest-card" data-category="life"><div class="interest-top"><span class="topic-label">HABERİN İZİNDE</span><span class="interest-index">05 / 05</span></div><div class="interest-small-icon" aria-hidden="true">≋</div><h3>Medya</h3><p>Güncel haberleri ve farklı haber anlatım biçimlerini takip ederek gazetecilik bakış açımı geliştirmeye çalışıyorum.</p><details><summary>Merak ettiğim yönü <span aria-hidden="true">+</span></summary><p>Aynı olayın farklı kaynaklarda nasıl ele alındığını ve anlatım tercihlerinin okuyucuya etkisini incelemek.</p></details></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container gallery-section" id="galeri" aria-labelledby="gallery-title">
+      <div class="section-label"><span>05 / FOTOĞRAF ALBÜMÜM</span><span>Hayatımdan üç kare</span></div>
+      <div class="section-heading"><h2 id="gallery-title">Kelimelerin yanında,<br><em>birkaç kare.</em></h2><p>Bazen bir fotoğraf da kendini anlatmanın bir yoludur. Fotoğraflara dokunarak büyük hâllerini inceleyebilirsiniz.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item" type="button" data-photo="0" aria-label="Renkli portre fotoğrafını büyüt"><img src="assets/portre-renkli.jpg" alt="Mustafa Kaan Aykoç, mavi kazakla renkli portre" width="1164" height="1536" loading="lazy"><span class="gallery-caption"><span><small>01 / RENKLİ</small>Bir an, bir bakış.</span><span class="gallery-plus" aria-hidden="true">↗</span></span></button>
+        <button class="gallery-item" type="button" data-photo="1" aria-label="Siyah beyaz portre fotoğrafını büyüt"><img src="assets/portre-siyah-beyaz.jpg" alt="Mustafa Kaan Aykoç'un gözlüklü siyah beyaz portresi" width="1154" height="1536" loading="lazy"><span class="gallery-caption"><span><small>02 / SİYAH & BEYAZ</small>Sade bir çerçeve.</span><span class="gallery-plus" aria-hidden="true">↗</span></span></button>
+        <button class="gallery-item" type="button" data-photo="2" aria-label="Dış mekân portre fotoğrafını büyüt"><img src="assets/portre-dis-mekan.jpg" alt="Mustafa Kaan Aykoç'un açık havada çekilmiş siyah beyaz portresi" width="871" height="1536" loading="lazy"><span class="gallery-caption"><span><small>03 / DIŞARIDA</small>Hayatın içinden.</span><span class="gallery-plus" aria-hidden="true">↗</span></span></button>
+      </div>
+    </section>
+
+    <section class="contact-section" id="iletisim" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy"><div class="eyebrow">06 / İLETİŞİM</div><h2 id="contact-title">Bir fikir,<br>yeni bir <em>sohbet.</em></h2><p>Gazetecilik, tarih, ekonomi ya da teknoloji… Paylaşacak bir düşünceniz varsa bir mesaj taslağı hazırlayabilirsiniz.</p><div class="contact-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Uşak, Türkiye<small>Uşak Üniversitesi · Gazetecilik</small></span></div><a class="direct-email" id="direct-email" hidden>E-posta ile iletişime geç <span aria-hidden="true">↗</span></a></div>
+        <form class="contact-form" id="contact-form">
+          <h3>Bir merhaba ile başlayın.</h3>
+          <p class="form-note">Bu alan mesaj taslağı oluşturur; mesaj göndermez.</p>
+          <div class="form-row"><div class="field"><label for="sender-name">Adınız soyadınız</label><input id="sender-name" name="name" type="text" placeholder="Adınız Soyadınız" autocomplete="name" maxlength="100" required></div><div class="field"><label for="sender-email">E-posta adresiniz</label><input id="sender-email" name="email" type="email" placeholder="siz@ornek.com" autocomplete="email" maxlength="180" required></div></div>
+          <div class="field"><label for="message-subject">Konu</label><select id="message-subject" name="subject"><option>Tanışma ve sohbet</option><option>Gazetecilik ve medya</option><option>Tarih ve harp tarihi</option><option>Makroekonomi ve finans</option><option>Diğer</option></select></div>
+          <div class="field"><label for="sender-message">Mesajınız</label><textarea id="sender-message" name="message" placeholder="Paylaşmak istediğiniz düşüncenizi yazın…" rows="4" minlength="10" maxlength="4000" required></textarea></div>
+          <button class="button button-primary" type="submit">Mesaj taslağı oluştur <span aria-hidden="true">↗</span></button>
+          <div class="draft-result" id="draft-result" hidden><h4>Mesaj taslağınız hazır.</h4><pre id="draft-text"></pre><div class="draft-actions"><button class="button button-secondary" type="button" id="copy-draft">Metni kopyala</button><button class="button button-secondary" type="button" id="download-draft">TXT olarak indir</button></div></div>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-top"><a class="footer-wordmark" href="#anasayfa">Mustafa Kaan Aykoç<span>.</span></a><p>Merak etmekle başlayan<br>bir yolculuk.</p><a class="text-link" href="#anasayfa">Başa dön <span aria-hidden="true">↑</span></a></div><div class="container footer-bottom"><span>© <span id="current-year">2026</span> Mustafa Kaan Aykoç</span><span>Kişisel web sayfam · Uşak, Türkiye</span></div></footer>
+  <a class="back-to-top icon-button" href="#anasayfa" aria-label="Sayfanın başına dön" title="Başa dön">↑</a>
+
+  <!-- Fotoğraf görüntüleyici: fare, dokunma ve klavye ile kullanılabilir. -->
+  <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="photo-caption"><div class="lightbox-toolbar"><span id="photo-counter">01 / 03</span><button class="icon-button" id="close-photo" type="button" aria-label="Fotoğrafı kapat">×</button></div><div class="lightbox-image-wrap"><img id="lightbox-image" alt=""></div><div class="lightbox-bottom"><button class="icon-button" id="previous-photo" type="button" aria-label="Önceki fotoğraf">←</button><p id="photo-caption"></p><button class="icon-button" id="next-photo" type="button" aria-label="Sonraki fotoğraf">→</button></div></dialog>
+  <noscript><p class="noscript-note">Bölümler ve fotoğraflar JavaScript olmadan da görüntülenebilir. Tema, filtreler ve mesaj taslağı için JavaScript'i etkinleştirin.</p></noscript>
+</body>
+</html>
